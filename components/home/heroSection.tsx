@@ -31,7 +31,7 @@ const HeroSection = () => {
                 />
               </div>
               {/* Ana logo */}
-              <div className="order-3 md:order-none w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 my-4 md:my-0 shrink-0">
+              <div className="order-3 md:order-none w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80  md:my-0 shrink-0">
                 {" "}
                 {/* shrink-0 eklendi */}
                 <Image
@@ -39,7 +39,7 @@ const HeroSection = () => {
                   alt="Ada & Co Accounts Logo"
                   width={300}
                   height={300}
-                  className="filter brightness-0 invert w-full h-full object-contain"
+                  className="filter brightness-0 invert w-full h-auto object-contain"
                 />
               </div>
               {/* Hull City logosu */}
@@ -56,7 +56,7 @@ const HeroSection = () => {
               </div>
             </div>
             {/* Başlık - overflow-x-hidden eklendi */}
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-slate-50 text-center px-4 w-full overflow-hidden -mt-3">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-slate-50 text-center px-4 w-full overflow-hidden -mt-18 md:-mt-3">
               Ada & Co
               <br />
               <span className="text-slate-50 text-xl sm:text-2xl md:text-3xl font-medium">
